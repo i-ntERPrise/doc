@@ -1,4 +1,9 @@
-site_name: intERPrise
+# SPDX-FileCopyrightText: © 2019 TEMBO Technology Lab (Pty) Ltd
+# SPDX-FileContributor: Clifford Weinmann <https://www.cliffordweinmann.com/>
+#
+# SPDX-License-Identifier: Apache-2.0
+
+site_name: intERPrise Documentation
 theme:
   name: material
   language: en

@@ -1,0 +1,8 @@
+version = 1
+
+[[annotations]]
+path = ["*.md", "docs/**"]
+precedence = "closest"
+SPDX-FileCopyrightText = "© 2019 TEMBO Technology Lab (Pty) Ltd <https://www.tembotechlab.com/>"
+SPDX-FileContributor = "Clifford Weinmann <https://www.cliffordweinmann.com/>"
+SPDX-License-Identifier = "Apache-2.0"
