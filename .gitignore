@@ -1,0 +1,26 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary Files #
+###################
+*.swp
+*.bak
+*.log
+.vscode
+.DS_Store
+.bash_history
+.lesshst
+*/__pycache__/*
+
+# Project specific files #
+##########################
+/.obsidian
+/.cache
+/site

@@ -1,0 +1,68 @@
+site_name: intERPrise
+theme:
+  name: material
+  language: en
+  favicon: media/favicon.ico
+  features:
+    - content.code.copy
+plugins:
+  - privacy
+  - search
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - tables
+nav:
+  - index.md
+  - Target_Audience.md
+  - Source_Repository_and_location_of_source_files.md
+  - Supported_Operating_System_Releases.md
+  - Supported_programming_languages.md
+  - Recommended_IDE_Release.md
+  - RDi_Extension_Names.md
+  - General_IBM_i_naming_conventions_principles_applied.md
+  - Open_Source_tooling.md
+  - Use_of_special_characters_in_source_and_object_naming.md
+  - Use_of_FULLY_FREE_format_RPG_source.md
+  - Length_of_object_and_source_member_names.md
+  - Line_length_of_source_members.md
+  - Comments_in_Code.md
+  - Use_and_leveraging_of_standard_IBM_i_objects_and_architecture.md
+  - Standardized_Error_Handling.md
+  - ABSOLUTE_separation_between_the_database_and_the_rest_of_the_application.md
+  - Function_Procedure_Modules_SRVPGM.md
+  - Suggested_maximum_number_of_elements_components.md
+  - Use_of_Source_code_Copy_Books.md
+  - Prototypes_External.md
+  - Compiler_Directives.md
+  - Use_of_libraries_schemas.md
+  - Source_Files.md
+  - Delivery_channel_or_user_interface.md
+  - JSON_standards.md
+  - Enhancing_procedures_functions.md
+  - Definition_of_database_layer_components_that_will_be_delivered_by_AO.md
+  - Database_components_naming_conventions.md
+  - Validation_rules.md
+  - Use_of_surrogate_keys_in_the_database.md
+  - Central_Metadata_Repository.md
+  - RLA_and_SQL_result_set_processing.md
+  - Standard_Code_templates.md
+  - MakeFile_Utility.md
+  - High_Availability.md
+  - Security_Implementation.md
+  - Unacceptable_coding_constructs.md
+  - Documentation.md
+  - Use_of_Adsero_Optima.md
